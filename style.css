@@ -159,3 +159,44 @@ body{
 body{
     padding-top: 80px;
 }
+/* Popup Styling */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: none; /* Initially hidden */
+    z-index: 1000;
+}
+
+/* Image inside Popup */
+.popup img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Close Button */
+#closeBtn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    float: right;
+    border-radius: 5px;
+}
+
+/* Button Style */
+#openBtn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
